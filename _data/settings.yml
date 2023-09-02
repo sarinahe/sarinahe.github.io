@@ -2,14 +2,14 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
+title: Blog
 logo:
 author: themefisher
 description: this is meta description
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
-copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+email: sarinashahuzi@gmail.com
+phone: ---
+address: Istanbul/Turkey
+# copyright:  
 
 menu:
   - { name: About, link: "/about" }
@@ -36,19 +36,19 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Hi! I’m <br> Sarina <br> Front End Developer
 
 social:
-  - { icon: "ti-facebook", link: "#" }
-  - { icon: "ti-instagram", link: "#" }
-  - { icon: "ti-dribbble", link: "#" }
-  - { icon: "ti-twitter", link: "#" }
+  - { icon: "ti-github", link: "https://github.com/sarinahe" }
+  - { icon: "ti-instagram", link: "instagram.com/sareenashz" }
+  - { icon: "ti-linkedin", link: "https://www.linkedin.com/in/sarina-hemat" }
+  - { icon: "ti-twitter", link: "" }
 
 #-------------------------------
 # About (Section and Page)
 
 # About Section
-blurb: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+blurb: What  you  seek  is  seeking  you, Rumi
 
 blurb-btn-link: "/about"
 blurb-btn-name: know more
@@ -88,9 +88,9 @@ team:
 
 skills-title: Skills
 skills:
-  - { name: Web Design, color: "#fdb157", value: "90%" }
-  - { name: Logo Design, color: "#9473e6", value: "60%" }
-  - { name: After Effects, color: "#bdecf6", value: "80%" }
+  - { name: React, color: "#fdb157", value: "90%" }
+  - { name: Python, color: "#9473e6", value: "60%" }
+  - { name: Web Design, color: "#bdecf6", value: "80%" }
   - { name: Web App, color: "#ffbcaa", value: "70%" }
 
 #-------------------------------
@@ -99,23 +99,23 @@ skills:
 experience-title: Experience
 experience:
   - {
-      name: Junior UX Designer,
+      name: Junior Front End Developer,
       icon: "icon-1.png",
-      date: "Jan 2007 - Feb 2009",
-      organization: "WEBEX",
+      date: "Jan 2020 - Feb 2021",
+      # organization: "WEBEX",
     }
-  - {
-      name: UX & UI Designer,
-      icon: "icon-2.png",
-      date: "Mar 2009 - Aug 2014",
-      organization: "AUGMEDIX",
-    }
-  - {
-      name: Senior UI Designer,
-      icon: "icon-3.png",
-      date: "Sep 2014 - Present",
-      organization: "THEMEFISHER",
-    }
+  # - {
+  #     name: UX & UI Designer,
+  #     icon: "icon-2.png",
+  #     date: "Mar 2009 - Aug 2014",
+  #     organization: "AUGMEDIX",
+  #   }
+  # - {
+  #     name: Senior UI Designer,
+  #     icon: "icon-3.png",
+  #     date: "Sep 2014 - Present",
+  #     organization: "THEMEFISHER",
+  #   }
 
 #-------------------------------
 # Education Section
@@ -123,49 +123,49 @@ experience:
 education-title: Education
 education:
   - {
-      name: Marters in UX Design,
-      date: "2006",
-      organization: "Masassusets Institute of Technology",
+      name: Developing Front End App with React Certificat,
+      date: "2023",
+      organization: "IBM",
     }
-  - {
-      name: Honours in Fine Arts,
-      date: "2004",
-      organization: "Harvard University",
-    }
-  - {
-      name: Higher Secondary Certificat,
-      date: "2000",
-      organization: "Cardiff School",
-    }
-  - {
-      name: Secondary School Certificate,
-      date: "1998",
-      organization: "Cardiff School",
-    }
+  # - {
+  #     name: Honours in Fine Arts,
+  #     date: "2004",
+  #     organization: "Harvard University",
+  #   }
+  # - {
+  #     name: Higher Secondary Certificat,
+  #     date: "2000",
+  #     organization: "Cardiff School",
+  #   }
+  # - {
+  #     name: Secondary School Certificate,
+  #     date: "1998",
+  #     organization: "Cardiff School",
+  #   }
 
 #-------------------------------
 # Services Section
 
-services-title: Services
-services:
-  - {
-      name: UI Design,
-      icon: ti-palette,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: ,# Add true to select section
-    }
-  - {
-      name: UX Design,
-      icon: ti-vector,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: true, # Add true to select section
-    }
-  - {
-      name: Interaction Design,
-      icon: ti-panel,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: ,# Add true to select section
-    }
+# services-title: Services
+# services:
+#   - {
+#       name: UI Design,
+#       icon: ti-palette,
+#       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+#       active: ,# Add true to select section
+#     }
+#   - {
+#       name: UX Design,
+#       icon: ti-vector,
+#       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+#       active: true, # Add true to select section
+#     }
+#   - {
+#       name: Interaction Design,
+#       icon: ti-panel,
+#       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+#       active: ,# Add true to select section
+#     }
 
 #-------------------------------
 # Portfolio (Section and Page)
@@ -246,21 +246,21 @@ portfolio-items:
 #-------------------------------
 # Testimonials Section
 
-testimonial-items:
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+# testimonial-items:
+#   - name: "Jesica Gomez"
+#     image: "assets/images/testimonial/client-1.png"
+#     designation: "CEO, Funder"
+#     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+#   - name: "Jesica Gomez"
+#     image: "assets/images/testimonial/client-1.png"
+#     designation: "CEO, Funder"
+#     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+#   - name: "Jesica Gomez"
+#     image: "assets/images/testimonial/client-1.png"
+#     designation: "CEO, Funder"
+#     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
 #-------------------------------
 # Client Slider Section
